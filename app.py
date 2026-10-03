@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 st.set_page_config(page_title="Tính Điểm Học Phần", page_icon="📊", layout="centered")
 
 
@@ -52,4 +51,4 @@ st.success(f"🎯 ĐIỂM HỌC PHẦN CUỐI CÙNG (ĐHP): {ĐHP:.2f}")
 
 st.markdown("---")
 
-st.warning("⚠️ ĐÂY CHỈ LÀ KẾT QUẢ THAM KHẢO !")
+st.warning("⚠️ AN LÊ CẢNH BÁO ĐÂY CHỈ LÀ KẾT QUẢ THAM KHẢO !")
